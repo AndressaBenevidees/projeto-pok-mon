@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto - Pokémon</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <a href="https://www.pokemon.com/br/pokedex/" target="_blank"><img src="./src/imagens/pokeball.png" alt="pokebola" class="logo"></a>
+
+    <img src="./src/imagens/logo-pokemon.png" alt="Logo Pokémon" class="logo-pokemon">
+
+    <button id="botao-alterar-tema">
+      <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+    </button>
+  </header>
+  <main>
+    <ul class="listagem-pokemon">
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Pikachu</span>
+          <span>#001</span>
+        </div>
+        <div class="imagem"><img src="./src/imagens/pikachu.gif" alt="Pikachu" class="gif"></div>
+        <ul class="tipos">
+          <li class="tipo eletrico">Elétrico</li>
+        </ul>
+        <p class="descricao">Quando está com raiva, descarrega imediatamente a energia armazenada nas bolsas de suas
+          bochechas.</p>
+      </li>
+
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Charmander</span>
+          <span>#002</span>
+        </div>
+        <div class="imagem"><img src="./src/imagens/charmander.gif" alt="charmander" class="gif"></div>
+        <ul class="tipos">
+          <li class="tipo fogo">Fogo</li>
+        </ul>
+        <p class="descricao">Tem preferência por coisas quentes. Quando chove, o vapor jorra da ponta de sua cauda.</p>
+      </li>
+
+      <ul class="listagem-pokemon">
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Bulbasaur</span>
+            <span>#003</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo grama">Grama</li>
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+          <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente
+            cresce lentamente.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Squirtle</span>
+            <span>#004</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo agua">Água</li>
+          </ul>
+          <p class="descricao">Quando se sente ameaçado, ele puxa seus membros para dentro de sua carapaça e borrifa
+            água de sua boca.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Jigglypuff</span>
+            <span>#005</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/Jigglypuff.gif" alt="Jigglypuff" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo normal">Normal</li>
+            <li class="tipo fada">Fada</li>
+          </ul>
+          <p class="descricao">Quando seus olhos enormes vacilam, ele canta uma melodia misteriosamente reconfortante
+            que embala seus inimigos para dormir.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Psyduck</span>
+            <span>#006</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/psyduck.gif" alt="Psyduck" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo agua">Água</li>
+          </ul>
+          <p class="descricao">É constantemente assolado por uma dor de cabeça. Quando a dor de cabeça fica intensa, ela
+            começa a usar poderes misteriosos.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Meowth</span>
+            <span>#007</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/meowth.gif" alt="Meowth" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo normal">Normal</li>
+          </ul>
+          <p class="descricao">Tudo o que faz é dormir durante o dia. À noite, patrulha seu território com os olhos
+            brilhando.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Snorlax</span>
+            <span>#008</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/snorlax.gif" alt="Snorlax" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo normal">Normal</li>
+          </ul>
+          <p class="descricao">Não fica satisfeito a menos que coma mais de 880 libras de comida todos os dias. Quando
+            termina de comer, vai imediatamente dormir.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Mew</span>
+            <span>#009</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/mew.gif" alt="Mew" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo psiquico">Psíquico</li>
+          </ul>
+          <p class="descricao">Quando visto através de um microscópio, o cabelo curto, fino e delicado deste Pokémon
+            pode ser visto.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Clefairy</span>
+            <span>#010</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/Clefairy.gif" alt="Clefairy" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo fada">Fada</li>
+          </ul>
+          <p class="descricao">Seu comportamento adorável e choro o tornam altamente popular. No entanto, este Pokémon
+            fofo raramente é encontrado.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Venonat</span>
+            <span>#011</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/venonat.gif" alt="Venonat" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo inseto">Inseto</li>
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+          <p class="descricao">Veneno escorre de todo o seu corpo. Ele pega pequenos Pokémon insetos à noite que são
+            atraídos pela luz.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Koffing</span>
+            <span>#012</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/koffing.gif" alt="Koffing" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+          <p class="descricao">Seu corpo está cheio de gás venenoso. Ele flutua em depósitos de lixo, procurando a
+            fumaça do lixo cru e apodrecido.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Ekans</span>
+            <span>#013</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/ekans.gif" alt="Ekans" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+          <p class="descricao">Quanto mais velho fica, mais cresce. À noite, envolve seu longo corpo nos galhos das árvores para descansar.</p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Lugia</span>
+            <span>#014</span>
+          </div>
+          <div class="imagem"><img src="./src/imagens/lugia.gif" alt="Lugia" class="gif"></div>
+          <ul class="tipos">
+            <li class="tipo psiquico">Psíquico</li>
+            <li class="tipo voo">Vôo</li>
+          </ul>
+          <p class="descricao">As asas de Lugia carregam um poder devastador - um leve bater de suas asas pode destruir casas comuns. Como resultado, este Pokémon escolhe viver escondido nas profundezas do mar.</p>
+        </li>
+      </ul>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
